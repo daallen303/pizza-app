@@ -1,0 +1,772 @@
+#showhotbutton
+  {
+  	height: 30px;
+  	width: 30px;
+  }
+  #showcoldbutton
+  {
+  	 	height: 30px;
+  	width: 30px;
+  }
+#showallsubsbutton
+{
+	height: 30px;
+  	width: 30px;
+}
+  #showpizza
+  {
+  background-image: url(./pizza.jpeg); 
+   background-size: cover;
+  }
+  #showcalzone
+  {
+  background-image: url(./calzone.jpg); 
+   background-size: cover;
+  }
+  #showsalad
+  {
+  background-image: url(./salad.jpg); 
+   background-size: cover;
+  }
+  #showsubs
+  {
+  background-image: url(./sub.jpg);
+   background-size: cover;
+  }
+  #showrolls
+  {
+   background-image: url(./rolls.jpg); 
+   background-size: cover;
+  }
+  #showstromboli
+  {
+  background-image: url(./stromboli.png); 
+   background-size: cover;
+  }
+ #backtomenu
+ {
+   background: #008d55;
+  background-image: -webkit-linear-gradient(top, #008d55, #03613b);
+  background-image: -moz-linear-gradient(top, #008d55, #03613b);
+  background-image: -ms-linear-gradient(top, #008d55, #03613b);
+  background-image: -o-linear-gradient(top, #008d55, #03613b);
+  background-image: linear-gradient(to bottom, #008d55, #03613b);
+  width:80%;
+   height: 35px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+ }
+.menubutton
+{
+	font-family: "Times New Roman", Times, serif;
+	border-style: none;
+	background-color:white;
+	font-size: 40px;
+	height: 200px;
+    width: 30%;
+    text-align: center;
+    color: white;
+    
+}
+/* **************************** start of new code block ************************* */
+ #strombolipic
+  {
+  display: none;
+  }
+ #subpic
+  {
+  display: none;
+  }
+/* **************************** end of new code block ************************* */
+
+
+@media screen and (min-width: 700px) 
+{
+ #pizzapicture
+  {
+  display: block;
+  float:right;
+  width:156px;
+  height:100px;
+  }
+ #saladpic
+  {
+  display: none;
+  float:right;
+  width:133px;
+  height:100px;
+  }
+ #sausagerollspic
+  {
+  display: block;
+  float:right;
+  width:144px;
+  height:95px;
+  }
+ #calzonepic
+  {
+  display: block;
+  float:right;
+  width:135px;
+  height:100px;
+  }
+
+/* **************************** start of new code block ************************* */
+
+ #strombolipic
+  {
+  display: block;
+  float:right;
+  width:126px;
+  height:100px;
+  }
+ #subpic
+  {
+  display: block;
+  float:right;
+  width:200px;
+  height:100px;
+  }
+/* **************************** end of new code block ************************* */
+
+}
+ 
+@media screen and (min-width: 900px)
+{
+  #pizzapicture
+  {
+  display: block;
+  float:right;
+  width:234px;
+  height:150px;
+  }
+
+  #saladpic
+  {
+  display: block;
+  float:right;
+   width:300px;
+  height:175px;
+  }
+
+  #sausagerollspic
+  {
+  display: block;
+  float:right;
+ width:332px;
+  height:200px;
+  }
+
+  #calzonepic
+  {
+  display: block;
+  float:right;
+  width:202px;
+  height:150px;
+  }
+
+/* **************************** start of new code block ************************* */
+ #strombolipic
+  {
+  display: block;
+  float:right;
+  width:189px;
+  height:150px;
+  }
+ #subpic
+  {
+  display: block;
+  float:right;
+  width:300px;
+  height:150px;
+  }
+/* **************************** end of new code block ************************* */
+
+}
+
+
+#fullheader
+{
+height: 50px;
+margin-bottom: 5px;
+display: block;
+width: 80%;
+margin-right: auto;
+margin-left:auto;
+text-align: center;
+}
+
+
+#DHeader
+{
+/*
+display: inline-block;
+font-size: 30px;
+color: rgb(68, 0, 0);
+padding-left: 20px; 
+float: left;
+width: 30%;
+height: 50px;
+*/
+}
+
+
+#address
+{
+/*
+display: inline-block;
+color: rgb(68, 0, 0);
+font-size: 20px;
+float: right;
+height: 50px;
+width: 60%;
+*/
+}
+
+
+.title
+{
+display: inline-block;
+ width:25%;
+ margin-right: 60px;
+ margin-bottom: 10px;
+}
+
+
+.pizzaquanity input[type=number]
+{
+	width: 100px;
+}
+.pizzasize select
+{
+	width: 100px;
+}
+.pizzanamesspan select
+{
+	width: 100px;
+}
+
+
+
+
+#pizza
+{
+width: 80%;
+margin-right: auto;
+margin-left:auto;
+}
+.pizzatoppingspan
+{
+	width: 150px;
+	margin-right:20px;
+	text-align: left;
+	float: left;
+
+}
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+#Header
+{
+color: rgb(68, 0, 0);;
+ font-family: "Times New Roman", Times, serif;
+display: block;
+height: 50px;
+margin-top: 20px;
+text-align: center;
+font-size: 40px;
+}
+.header
+{
+    color:#008d55;
+    height : 200px;
+   width  : 100%;
+   background: linear-gradient(to bottom, 
+       #e60000    0%, #e60000  33.33%, 
+       white  0%, white 66.66%,        
+       #008000 0%);
+    text-decoration: underline;
+}
+
+select{
+    width: auto;
+    font-size: 14px;
+}
+
+h1
+{
+	color: rgb(68, 0, 0);
+}
+
+
+
+#rolls
+{
+width: 80%;
+margin-right: auto;
+margin-left:auto;
+}
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+.calzonenames 
+{
+	width: 100px;
+}
+.calzonequanity input[type=number]
+{
+	width: 100px;
+}
+.calzonesize select
+{
+	width: 100px;
+}
+
+#calzone
+{
+width: 80%;
+margin-right: auto;
+margin-left:auto;
+}
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+
+#salad
+{
+width: 80%;
+margin-right: auto;
+margin-left:auto;
+}
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+
+
+
+
+#mainbody
+{
+	background-color: white;
+	width: 80%;
+	height: max-content;
+	margin-right:auto;
+	margin-left:auto;
+}
+body
+{
+    background-color: rgb(68, 0, 0);
+}
+.title
+{
+color: black;
+text-decoration: underline;
+text-align: center;
+}
+/*button
+{
+    background: #008d55;
+  background-image: -webkit-linear-gradient(top, #008d55, #03613b);
+  background-image: -moz-linear-gradient(top, #008d55, #03613b);
+  background-image: -ms-linear-gradient(top, #008d55, #03613b);
+  background-image: -o-linear-gradient(top, #008d55, #03613b);
+  background-image: linear-gradient(to bottom, #008d55, #03613b);
+  width:80%;
+   height: 35px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}*/
+
+#ShowHotButton
+{
+width:20%
+}
+#ShowColdButton
+{
+width:20%
+}
+#ShowAllSubsButton
+{
+width:20%
+}
+
+button:hover {
+  color: rgb(68, 0, 0);
+  text-decoration: none;
+}
+
+
+ input[type=submit]{
+    background: #008d55;
+  background-image: -webkit-linear-gradient(top, #008d55, #03613b);
+  background-image: -moz-linear-gradient(top, #008d55, #03613b);
+  background-image: -ms-linear-gradient(top, #008d55, #03613b);
+  background-image: -o-linear-gradient(top, #008d55, #03613b);
+  background-image: linear-gradient(to bottom, #008d55, #03613b);
+  -webkit-border-radius: 11;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+
+/* **************************** start of new code block ************************* */
+
+#Strombolli
+
+{
+width: 80%;
+margin-left:auto;
+margin-right: auto; 
+}
+
+.submit
+{
+width: 100%;
+height: 35px;
+}
+
+.strombname
+{
+display:inline-block;
+width:100px;
+}
+
+.strombdescription
+{
+display:inline-block;
+width:200px;
+}
+
+.strombprice
+{
+display:inline-block;
+width:60px;
+}
+
+.strombquanity
+{
+display:inline-block;
+margin-left:20px;
+}
+
+
+
+#Subs
+
+{
+width: 80%;
+margin-left:auto;
+margin-right: auto; 
+}
+
+.submit
+{
+width: 100%;
+height: 35px;
+}
+
+#hotsubs input
+{
+display:inline-block;
+margin-left: 80px;
+}
+
+#coldsubs input
+{
+display:inline-block;
+margin-left: 80px;
+}
+
+.subname
+{
+display:inline-block;
+width:100px;
+}
+
+.subdescription
+{
+display:inline-block;
+width:200px;
+}
+
+.subpricehalf
+{
+display:inline-block;
+width:60px;
+}
+
+.subpricefull
+{
+display:inline-block;
+width:60px;
+}
+
+.subsize
+{
+display:inline-block;
+margin-left:20px;
+}
+
+.subqty
+{
+display:inline-block;
+margin-left:20px;
+}
+
+.full
+{
+display:inline-block;
+width:60px;
+margin-left:300px;
+}
+
+.half
+{
+display:inline-block;
+width:120px;
+}
+
+.subtop
+{
+	width: 150px;
+	margin-right:20px;
+	text-align: left;
+	float: left;
+}
+/* **************************** end of new code block ************************* */
+
+
+
+#salad
+/* **************************** start of deleted code block ************************* 
+{
+    font-size: 14px;
+}
+ **************************** end of deleted code block ************************* */
+
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+
+.saladname
+{
+margin-left:40px;
+display:inline-block;
+width:150px;
+}
+
+.saladdescription
+{
+display:inline-block;
+width:200px;
+}
+
+/* **************************** start of changed code block ************************* */
+
+.saladprice
+{
+display:inline-block;
+width:60px;
+}
+
+.saladquantity
+{
+display:inline-block;
+margin-left:20px;
+}
+/* **************************** end of new code block ************************* */
+
+
+
+/* **************************** start of delete code block ************************* 
+   **************************** moved up into #subs section ************************* 
+.subdescription
+{
+margin-left: 80px;
+}
+.subpricehalf
+{
+margin-left: 80px;
+}
+.subpricefull
+{
+margin-left: 80px;
+}
+ **************************** end of delete code block ************************* */
+
+/* ************************** start of changed code **************************** */
+#cart
+{
+text-align:center;
+width: 80%;
+margin-left:auto;
+margin-right: auto; 
+background: lightgray;
+height: 100px;
+}
+.spacekeeper
+{
+
+display:inline-block;
+width:65%;
+margin-left:10px;
+float:left;
+height: 20px;
+}
+.CartName
+{
+display:inline-block;
+width:65%;
+margin-left:10px;
+float:left;
+text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+   .CartDescriptions{display: none;}
+}
+.CartPriceTotal
+{
+	float: left;
+text-align: right;
+width: 12%;
+
+}
+.Price
+{
+	float: left;
+	text-align: left;
+	width:15%;
+}
+#itemtotalheader
+{
+float: left;
+	text-align: left;
+	width:15%;
+	margin-top: 10px;
+}
+#itemtotal
+{
+margin-top: 10px;
+float: left;
+text-align: right;
+width: 12%;
+}
+#totalplustaxheader
+{
+float: left;
+	text-align: left;
+	width:15%;
+}
+#totalplustax
+{
+float: left;
+text-align: right;
+width: 12%;
+}
+
+
+
+
+
+#formsubmit 
+
+{
+display: none;
+text-align:center;
+width: 80%;
+margin-left:auto;
+margin-right: auto; 
+background: lightgray;
+}
+
+
+
+#rolls
+
+.submit
+{
+width: 100%;
+ height: 35px;
+}
+
+.rollsname
+{
+margin-left:40px;
+display:inline-block;
+width:150px;
+}
+
+.rollsdescription
+{
+display:inline-block;
+width:200px;
+}
+
+.rollsprice
+{
+display:inline-block;
+width:60px;
+}
+
+.rollquanity
+{
+display:inline-block;
+margin-left:20px;
+}
+
+
+/* ****************************** end of changed code ************************** */
+
+
+
+      .formsFood{display: none;}
+
+        button{margin: 10px;}
+
+        input[type=number]{width: 70px;}
+	input[type=number] 
+	{
+	    font-size: 16px;
+	    padding: 0 8px;
+	}
+	input[type=number]::-webkit-inner-spin-button 
+	{ 
+	    -webkit-appearance: none;
+	    cursor:pointer;
+	    display:block;
+	    width:8px;
+	    color: #333;
+	    text-align:center;
+	    position:relative;
+	}    
+	input[type=number]::-webkit-inner-spin-button 
+	{ 
+	    background: #eee url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;  
+	    width: 14px;
+	    height: 14px;
+	    padding: 4px;
+	    position: relative;
+	    right: 4px;
+	    border-radius: 28px;
+	}

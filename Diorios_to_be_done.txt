@@ -1,0 +1,17 @@
+Needs to be done by end of November
+
+•	Ability to edit cart -Matt & Danny
+•	Ability for Chuck to add Other, Calzone, Pizza -Matt & Danny
+•	Ability for chuck to edit all menu items -Matt & Danny
+•	Send Cart info to Chuck when order is submitted -Kirby
+•	Formatting all forms including cart -Kirby
+•	CSS/color scheme/layout -Matt
+•	Talk to Chuck figure out price scheme for pizza’s and calzones w/ adding toppings
+•	Pricing needs to be formatted/ rounded so it is only two decimal places ie .00 not .09998 -Kirby
+•	Option for cold sub to be served hot -whoever
+•	Menu buttons need styled and formatted -all
+•	Made compatible with mobile phone -all
+•	Customer name and number and email added to the cart-Matt
+•	Various checks ie. empty quanity, no name for order, anything invalid – Matt
+>Special instructions for order-Matt
+>Rename submit buttons to make sense -Matt
