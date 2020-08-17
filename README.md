@@ -1,2 +1,3 @@
-# Diorio-s-WebApp
-# Chuck's email: diorios.GJ@gmail.com
+# Pizza App 
+
+http://www.daallen.xyz/projects/Diorios/menu.php
